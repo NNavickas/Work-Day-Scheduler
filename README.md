@@ -17,7 +17,8 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-✔️ Satisfies all of the above acceptance criteria plus the following:
+✔️ Satisfies all of the above acceptance criteria plus the following.
+
 ✔️ Uses a date utility library to work with date and timeSatisfies all of the defined calculation criteria.
 
 ### Deployment: 32%
@@ -37,6 +38,8 @@ This homework is graded based on the following criteria:
 ✔️ Application resembles the mock-up functionality provided in the homework instructions.
 
 ✔️ Application user interface style is clean and polished.
+
+![application guidance from homework instructions](05-third-party-apis-homework-demo.gif)
 
 ### Repository Quality 13%
 
