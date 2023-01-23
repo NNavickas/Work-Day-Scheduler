@@ -1,8 +1,8 @@
 // get today's date (moment.js)
+var dateToday = moment().format("MMM Do YY");
 
-
-//display date at top of page
-
+// display date on page
+$('#dateToday').text(dateToday);
 
 //create the blocks of time which are bookable 
 
