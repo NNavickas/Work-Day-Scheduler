@@ -68,7 +68,7 @@ $(document).on('click', '.saveBtn', function () {
     // check if textarea is empty
     if (textArea.val().trim() === "") {
         //show alert
-        $('.container').prepend('<div class="alert alert-danger" role="alert">You have not entered an event</div>');
+        $('.container').prepend('<div class="alert alert-danger" role="alert">You have not entered an event </div>');
         setTimeout(function () {
             $('.alert').remove();
         }, 2000);
@@ -83,7 +83,7 @@ $(document).on('click', '.saveBtn', function () {
         localStorage.setItem('events' + hour, JSON.stringify(event));
 
         // add alert to say appointment added
-        $('.container').prepend('<div class="alert alert-success" role="alert">Appointment added to localStorage <i class="fas fa-check"></i></div>');
+        $('.container').prepend('<div class="alert alert-success" role="alert">Appointment added to local Storage <i class="fas fa-check"></i></div>');
         // remove alert after 2s
         setTimeout(function () {
             $('.alert').remove();
